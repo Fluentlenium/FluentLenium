@@ -397,7 +397,7 @@
                 </plugin>
                 <plugin>
                     <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.12.1</version>
+                    <version>3.13.0</version>
                     <configuration>
                         <!-- disable compiler plugins by default, enable if needed (see fluentlenium-core) in module -->
                         <proc>none</proc>
