@@ -183,7 +183,7 @@
             <dependency>
                 <groupId>io.netty</groupId>
                 <artifactId>netty-bom</artifactId>
-                <version>4.1.107.Final</version>
+                <version>4.1.109.Final</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -195,7 +195,7 @@
             <dependency>
                 <groupId>net.bytebuddy</groupId>
                 <artifactId>byte-buddy</artifactId>
-                <version>1.14.12</version>
+                <version>1.14.14</version>
                 <scope>compile</scope>
             </dependency>
             <dependency>
@@ -410,7 +410,7 @@
                 </plugin>
                 <plugin>
                     <artifactId>maven-install-plugin</artifactId>
-                    <version>3.1.1</version>
+                    <version>3.1.2</version>
                 </plugin>
                 <plugin>
                     <artifactId>maven-gpg-plugin</artifactId>
@@ -577,7 +577,7 @@
             </plugin>
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
-                <version>3.6.0</version>
+                <version>3.7.1</version>
                 <configuration>
                     <descriptors>src/main/assembly/dep.xml</descriptors>
                 </configuration>
@@ -667,7 +667,7 @@
             <plugin>
                 <groupId>com.github.ekryd.sortpom</groupId>
                 <artifactId>sortpom-maven-plugin</artifactId>
-                <version>3.4.0</version>
+                <version>3.4.1</version>
                 <configuration>
                     <sortDependencies>groupId,artifactId</sortDependencies>
                     <keepBlankLines>false</keepBlankLines>
