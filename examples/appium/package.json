@@ -8,7 +8,7 @@
   "devDependencies": {
     "appium": "next",
     "appium-uiautomator2-driver": "^2.12.7",
-    "appium-xcuitest-driver": "^4.21.4"
+    "appium-xcuitest-driver": "^4.35.0"
   },
   "scripts": {
     "xcuitest": "appium driver install xcuitest || echo \"xcuitest already installed\"",
