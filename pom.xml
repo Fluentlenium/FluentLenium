@@ -8,7 +8,7 @@
     </parent>
     <groupId>io.fluentlenium</groupId>
     <artifactId>fluentlenium-parent</artifactId>
-    <version>6.1.0</version>
+    <version>6.1.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>FluentLenium</name>
     <description>FluentLenium makes the writing of acceptance testing more easy and in a fluent way using the power of
