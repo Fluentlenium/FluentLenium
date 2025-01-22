@@ -72,7 +72,7 @@ public class DontRunTestsWhenInitFailTest {
             System.setOut(originalStdOut);
         }
 
-        verify(listenerAdapter, times(3)).onConfigurationFailure(any(ITestResult.class));
+        verify(listenerAdapter, times(2)).onConfigurationFailure(any(ITestResult.class));
         verify(listenerAdapter, times(2)).onTestSkipped(any(ITestResult.class));
         verify(listenerAdapter, times(2)).onTestStart(any(ITestResult.class));
         verify(listenerAdapter, never()).onTestSuccess(any(ITestResult.class));

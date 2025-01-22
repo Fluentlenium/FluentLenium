@@ -65,7 +65,7 @@ dependencies {
     testImplementation("io.kotest.extensions:kotest-extensions-testcontainers:2.0.2")
     testImplementation("org.testcontainers:selenium:1.19.7")
 
-    testImplementation("ch.qos.logback:logback-classic:1.5.6")
+    testImplementation("ch.qos.logback:logback-classic:1.5.16")
     testRuntimeOnly("org.slf4j:jul-to-slf4j:2.0.13")
 }
 
