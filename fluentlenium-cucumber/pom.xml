@@ -4,14 +4,14 @@
     <parent>
         <groupId>io.fluentlenium</groupId>
         <artifactId>fluentlenium-parent</artifactId>
-        <version>6.1.0</version>
+        <version>6.0.1-SNAPSHOT</version>
     </parent>
     <artifactId>fluentlenium-cucumber</artifactId>
     <packaging>jar</packaging>
     <name>FluentLenium Cucumber</name>
     <description>Cucumber Extension for FluentLenium</description>
     <properties>
-        <cucumber.version>7.20.1</cucumber.version>
+        <cucumber.version>7.17.0</cucumber.version>
     </properties>
     <dependencyManagement>
         <dependencies>
